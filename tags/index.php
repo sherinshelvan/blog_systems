@@ -5,7 +5,7 @@ class Tags extends Common_Functions{
 	function __construct(){
 		parent::__construct();
 		$this->page_heading = 'Tags';
-		$this->page_url     = BASE_URL.'tags';
+		$this->page_url     = BASE_URL.'/tags';
 		$this->table_name   = TABLE_PREFIX.'tags';
 		$this->index();
 	}

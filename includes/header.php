@@ -7,9 +7,9 @@
 	<!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link rel="stylesheet" href="<?=BASE_URL.'assets/css/materialize.min.css'?>">
+    <link rel="stylesheet" href="<?=BASE_URL.'/assets/css/materialize.min.css'?>">
     <!-- custom css -->
-	<link rel="stylesheet" href="<?=BASE_URL.'assets/css/style.css'?>">
+	<link rel="stylesheet" href="<?=BASE_URL.'/assets/css/style.css'?>">
 </head>
 <body>
 

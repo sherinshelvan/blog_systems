@@ -8,9 +8,9 @@ class Edit extends Common_Functions{
 	function __construct(){
 		parent::__construct();
 		$this->page_heading = 'Add Articles';
-		$this->page_url     = BASE_URL.'articles/edit.php'.(isset($_GET['edit']) ? ("?edit=".$_GET['edit']) : "");
+		$this->page_url     = BASE_URL.'/articles/edit.php'.(isset($_GET['edit']) ? ("?edit=".$_GET['edit']) : "");
 		$this->table_name   = TABLE_PREFIX.'articles';
-		$this->return_url   = BASE_URL.'articles';
+		$this->return_url   = BASE_URL.'/articles';
 		$this->index();
 	}
 	public function index(){

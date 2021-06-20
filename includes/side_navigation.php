@@ -13,13 +13,13 @@
 		<div class="nav-wrapper">
 			<ul id="main-menu" class="sidenav">
 				<li>
-					<a class="" title="Dashboard" href="<?=BASE_URL?>articles"><i class="material-icons">dashboard</i>Articles</a>
+					<a class="" title="Dashboard" href="<?=BASE_URL?>/articles"><i class="material-icons">dashboard</i>Articles</a>
 				</li>
 				<li>
-					<a class="" title="Category" href="<?=BASE_URL.'category'?>"><i class="material-icons">dehaze</i>Category</a>
+					<a class="" title="Category" href="<?=BASE_URL.'/category'?>"><i class="material-icons">dehaze</i>Category</a>
 				</li>
 				<li>
-					<a class="" title="Tags" href="<?=BASE_URL.'tags'?>"><i class="material-icons">link</i>Tags</a>
+					<a class="" title="Tags" href="<?=BASE_URL.'/tags'?>"><i class="material-icons">link</i>Tags</a>
 				</li>
 				
 

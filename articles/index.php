@@ -5,7 +5,7 @@ class Articles extends Common_Functions{
 	function __construct(){
 		parent::__construct();
 		$this->page_heading = 'Articles';
-		$this->page_url     = BASE_URL.'articles';
+		$this->page_url     = BASE_URL.'/articles';
 		$this->table_name   = TABLE_PREFIX.'articles';
 		$this->index();
 	}

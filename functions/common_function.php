@@ -11,7 +11,7 @@ class Common_Functions extends DB{
 	public function define_constant(){
 		define("TABLE_PREFIX", "tbl_");
 		define("PROJECT_NAME", "Blog Systems");
-		define("BASE_URL", "http://localhost/projects/blog_systems/");		
+		define("BASE_URL", "http://blog-system.local");		
 	}
 	public function metas($meta_title = "" ){
 		$this->meta_title = $meta_title; 

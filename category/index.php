@@ -5,7 +5,7 @@ class Category extends Common_Functions{
 	function __construct(){
 		parent::__construct();
 		$this->page_heading = 'Category';
-		$this->page_url     = BASE_URL.'category';
+		$this->page_url     = BASE_URL.'/category';
 		$this->table_name   = TABLE_PREFIX.'category';
 		$this->index();
 	}

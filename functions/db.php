@@ -7,8 +7,8 @@ class DB{
 	public function init_db(){
 		$servername = "localhost";
 		$username   = "root";
-		$password   = "root";
-		$db_name    = "blog_systems";
+		$password   = "";
+		$db_name    = "db_blog_systems";
 
 		// Create connection
 		$this->db = new mysqli($servername, $username, $password, $db_name);
